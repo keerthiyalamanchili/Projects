@@ -1,0 +1,67 @@
+# Enhancing Online Payment Fraud Detection
+
+## Project Overview
+
+This project aims to enhance the security of online payments by developing a robust fraud detection system using advanced data analytics and machine learning techniques. By leveraging models like Decision Trees, AdaBoost, and Gradient Boosting, we seek to accurately classify transactions as fraudulent or non-fraudulent in real-time, ensuring a safer digital financial ecosystem.
+
+## Team Members
+
+- Deekshitha Chikkala
+- Keerthi Yalamanchili
+- Prabhitha Veeramachaneni
+
+## Dataset
+
+- **Source**: Kaggle — [Online Payments Fraud Detection](https://www.kaggle.com/datasets)
+- **Rows**: 1,000,000
+- **Size**: 186 MB
+- **Features**:
+  - `step`, `type`, `amount`, `nameOrig`, `oldbalanceOrg`, `newbalanceOrig`, `nameDest`, `oldbalanceDest`, `newbalanceDest`, `isFraud`
+
+## Tools & Technologies
+
+- Python
+- Google Colab & Jupyter Notebook
+- Libraries: `numpy`, `pandas`, `matplotlib`, `seaborn`, `sklearn`, `plotly`, etc.
+
+## Methodology
+
+### 1. Exploratory Data Analysis (EDA)
+- Univariate & bivariate analysis
+- Handling outliers and null values
+- Pearson correlation & heatmap
+- Distribution and box plots
+
+### 2. Feature Engineering
+- Selected features: `type`, `amount`, `oldbalanceOrg`, `newbalanceOrig`
+- Label encoding for categorical features
+
+### 3. Machine Learning Models
+- **Decision Tree Classifier**: For interactive fraud prediction based on user input
+- **AdaBoost Classifier**: Improves performance by focusing on misclassified instances
+- **Gradient Boosting Classifier**: Adds complexity and boosts prediction capability
+
+### 4. Evaluation Metrics
+- Accuracy, Precision, Recall, F1-score
+- Visualization of model performance and confusion matrix
+
+## Results
+
+- High model accuracy achieved through ensemble techniques
+- Decision Tree model offers user-friendly predictions
+- AdaBoost and Gradient Boosting significantly improved detection capabilities in imbalanced datasets
+
+## Future Work
+
+- Implement SMOTE or other resampling techniques to address class imbalance
+- Enhance model performance through hyperparameter tuning
+- Integrate the system with real-time transaction processing for dynamic fraud detection
+
+## References
+
+- Journal and conference articles on fraud detection and ensemble learning (see report for full list)
+
+## License
+
+This project is licensed for academic and research use only.
+
